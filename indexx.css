@@ -1,16 +1,16 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: purple;
+	background: white;
 	font-family: Arial;
 }
 
 ul
 {
 	list-style-type: none;
-	background-color: white;
+	background-color: lightgray;
 	padding: 6px; overflow: hidden;
-	background-color: violet;
+
 
 }
 li
@@ -23,29 +23,27 @@ li
 }
 a{
 	color: black;
-
 }
 
 img{
-
+ 
 	padding: 0px;
 	margin: 1px;
-list-style: width:100px;height:100px;
+    width:150px;
+     height:100px;
 }
 
 .nav ul
 {
 	list-style-type: none;
-	background-color: white;
-	padding: 0px;
+	padding: 4px;
 	margin: 0;
-	overflow: hidden;
-	text-align: right;
-	background-color: violet;
+	text-align:right;
+	background-color: white;
 }
 .nav li
 {
-	
+	padding: 4px;
 	display: inline-block;
 	
 	}
@@ -54,7 +52,7 @@ list-style: width:100px;height:100px;
 	text-decoration: none;
 
 	color: black;
-	width: 100px;
+	width: 50px;
 	display: block;
 	padding: 0px;
 	margin: 1px;
@@ -64,9 +62,12 @@ list-style: width:100px;height:100px;
 
 }
 
-.slide{
-	width: 800px;
-	height: 600px;
-}
 
+
+
+.carousel-item{
+	border: 2px solid white;
+	padding: 25px;
+	size: auto;
+} 
 
